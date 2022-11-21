@@ -1,0 +1,26 @@
+{
+    "name": "ngt/belajar-php-unit-test",
+    "description": "Belajar PHP Unit Test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Nagatah Mulia"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "9.5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ngt\\test\\" : "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ngt\\test\\" : "test"
+        }
+    }
+}
